@@ -40,10 +40,14 @@ class SelectCountryTableVC: UITableViewController {
         notificationToken = countriesResult.observe {[weak self] (changes) in
             switch changes {
             case .initial(let countriesResult):
-                self?.countries = Array(countriesResult)
+                self?.countries = Array(countriesResult).sorted {
+                    $0.name < $1.name
+                }
                 self?.tableView.reloadData()
             case .update(let countriesResult, _, _, _):
-                self?.countries = Array(countriesResult)
+                self?.countries = Array(countriesResult).sorted {
+                    $0.name < $1.name
+                }
                 self?.tableView.reloadData()
             case let .error(error):
                 print(error)
