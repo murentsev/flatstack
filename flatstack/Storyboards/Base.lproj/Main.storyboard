@@ -282,7 +282,7 @@
                                     <constraint firstItem="zRK-a6-40t" firstAttribute="width" secondItem="EcF-1D-vxo" secondAttribute="width" constant="-40" id="EiM-qJ-tS4"/>
                                     <constraint firstItem="zRK-a6-40t" firstAttribute="leading" secondItem="EcF-1D-vxo" secondAttribute="leading" constant="20" id="Es8-dh-mzO"/>
                                     <constraint firstItem="zRK-a6-40t" firstAttribute="top" secondItem="EcF-1D-vxo" secondAttribute="top" constant="20" id="SY1-e7-nyg"/>
-                                    <constraint firstAttribute="bottom" secondItem="zRK-a6-40t" secondAttribute="bottom" constant="-20" id="uat-dd-WDo"/>
+                                    <constraint firstAttribute="bottom" secondItem="zRK-a6-40t" secondAttribute="bottom" id="uat-dd-WDo"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="jCf-NR-9rR"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="aKR-Vf-HMw"/>
