@@ -3,27 +3,40 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		8F1B2143267DFDD4007A9F27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B2142267DFDD4007A9F27 /* AppDelegate.swift */; };
 		8F1B2145267DFDD4007A9F27 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B2144267DFDD4007A9F27 /* SceneDelegate.swift */; };
-		8F1B2147267DFDD4007A9F27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B2146267DFDD4007A9F27 /* ViewController.swift */; };
 		8F1B214A267DFDD4007A9F27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B2148267DFDD4007A9F27 /* Main.storyboard */; };
 		8F1B214C267DFDD6007A9F27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B214B267DFDD6007A9F27 /* Assets.xcassets */; };
 		8F1B214F267DFDD6007A9F27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1B214D267DFDD6007A9F27 /* LaunchScreen.storyboard */; };
+		8F1B216C267E0BD5007A9F27 /* SelectCountryTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1B216B267E0BD5007A9F27 /* SelectCountryTableVC.swift */; };
+		8F9E804026889541006439EF /* CountryImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F9E803F26889541006439EF /* CountryImagesCollectionViewCell.swift */; };
+		8FC02F7F2687B07B007A7F13 /* DetailCountryScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC02F7E2687B07B007A7F13 /* DetailCountryScreenVC.swift */; };
+		8FD814D926804FD800410C24 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8FD814D826804FD800410C24 /* RealmSwift */; };
+		8FD814DB26805BBA00410C24 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FD814DA26805BBA00410C24 /* Country.swift */; };
+		8FE68C77267F4825007B58AC /* SelectCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE68C76267F4825007B58AC /* SelectCountryTableViewCell.swift */; };
+		8FE68C7C267F5B27007B58AC /* CountriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE68C7B267F5B27007B58AC /* CountriesService.swift */; };
+		B29590DD267F358900715346 /* FileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B29590DC267F358900715346 /* FileData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8F1B213F267DFDD4007A9F27 /* flatstack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flatstack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1B2142267DFDD4007A9F27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F1B2144267DFDD4007A9F27 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8F1B2146267DFDD4007A9F27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F1B2149267DFDD4007A9F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F1B214B267DFDD6007A9F27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F1B214E267DFDD6007A9F27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F1B2150267DFDD6007A9F27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F1B216B267E0BD5007A9F27 /* SelectCountryTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCountryTableVC.swift; sourceTree = "<group>"; };
+		8F9E803F26889541006439EF /* CountryImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryImagesCollectionViewCell.swift; sourceTree = "<group>"; };
+		8FC02F7E2687B07B007A7F13 /* DetailCountryScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCountryScreenVC.swift; sourceTree = "<group>"; };
+		8FD814DA26805BBA00410C24 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		8FE68C76267F4825007B58AC /* SelectCountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCountryTableViewCell.swift; sourceTree = "<group>"; };
+		8FE68C7B267F5B27007B58AC /* CountriesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesService.swift; sourceTree = "<group>"; };
+		B29590DC267F358900715346 /* FileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +44,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FD814D926804FD800410C24 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F02FD7C2688EB460047A3D2 /* CountryModel */ = {
+			isa = PBXGroup;
+			children = (
+				8FD814DA26805BBA00410C24 /* Country.swift */,
+			);
+			path = CountryModel;
+			sourceTree = "<group>";
+		};
 		8F1B2136267DFDD4007A9F27 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +78,109 @@
 		8F1B2141267DFDD4007A9F27 /* flatstack */ = {
 			isa = PBXGroup;
 			children = (
-				8F1B2142267DFDD4007A9F27 /* AppDelegate.swift */,
-				8F1B2144267DFDD4007A9F27 /* SceneDelegate.swift */,
-				8F1B2146267DFDD4007A9F27 /* ViewController.swift */,
-				8F1B2148267DFDD4007A9F27 /* Main.storyboard */,
+				8FE68C74267F2195007B58AC /* Services */,
+				8F1B215A267DFEDC007A9F27 /* Presentation */,
+				8F1B2159267DFEAD007A9F27 /* Storyboards */,
+				8F1B2156267DFE67007A9F27 /* Sources */,
 				8F1B214B267DFDD6007A9F27 /* Assets.xcassets */,
-				8F1B214D267DFDD6007A9F27 /* LaunchScreen.storyboard */,
 				8F1B2150267DFDD6007A9F27 /* Info.plist */,
 			);
 			path = flatstack;
+			sourceTree = "<group>";
+		};
+		8F1B2156267DFE67007A9F27 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B2158267DFE8A007A9F27 /* Delegates */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		8F1B2158267DFE8A007A9F27 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B2144267DFDD4007A9F27 /* SceneDelegate.swift */,
+				8F1B2142267DFDD4007A9F27 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		8F1B2159267DFEAD007A9F27 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B2148267DFDD4007A9F27 /* Main.storyboard */,
+				8F1B214D267DFDD6007A9F27 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8F1B215A267DFEDC007A9F27 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				8F02FD7C2688EB460047A3D2 /* CountryModel */,
+				8F1B215D267DFF1F007A9F27 /* SelectCountryScreen */,
+				8F1B215E267DFF5C007A9F27 /* DetailCountryScreen */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		8F1B215D267DFF1F007A9F27 /* SelectCountryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8FE68C75267F47FD007B58AC /* Cell */,
+				8F1B215F267DFF74007A9F27 /* Controller */,
+			);
+			path = SelectCountryScreen;
+			sourceTree = "<group>";
+		};
+		8F1B215E267DFF5C007A9F27 /* DetailCountryScreen */ = {
+			isa = PBXGroup;
+			children = (
+				8F9E803E2688950F006439EF /* Cell */,
+				8F9E803D268894FE006439EF /* Controller */,
+			);
+			path = DetailCountryScreen;
+			sourceTree = "<group>";
+		};
+		8F1B215F267DFF74007A9F27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8F1B216B267E0BD5007A9F27 /* SelectCountryTableVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F9E803D268894FE006439EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8FC02F7E2687B07B007A7F13 /* DetailCountryScreenVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8F9E803E2688950F006439EF /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8F9E803F26889541006439EF /* CountryImagesCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8FE68C74267F2195007B58AC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B29590DC267F358900715346 /* FileData.swift */,
+				8FE68C7B267F5B27007B58AC /* CountriesService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8FE68C75267F47FD007B58AC /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8FE68C76267F4825007B58AC /* SelectCountryTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +199,9 @@
 			dependencies = (
 			);
 			name = flatstack;
+			packageProductDependencies = (
+				8FD814D826804FD800410C24 /* RealmSwift */,
+			);
 			productName = flatstack;
 			productReference = 8F1B213F267DFDD4007A9F27 /* flatstack.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +229,9 @@
 				Base,
 			);
 			mainGroup = 8F1B2136267DFDD4007A9F27;
+			packageReferences = (
+				8FD814D726804FD800410C24 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
 			productRefGroup = 8F1B2140267DFDD4007A9F27 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,9 +259,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1B2147267DFDD4007A9F27 /* ViewController.swift in Sources */,
+				8F9E804026889541006439EF /* CountryImagesCollectionViewCell.swift in Sources */,
+				8FD814DB26805BBA00410C24 /* Country.swift in Sources */,
 				8F1B2143267DFDD4007A9F27 /* AppDelegate.swift in Sources */,
+				8FE68C77267F4825007B58AC /* SelectCountryTableViewCell.swift in Sources */,
+				8F1B216C267E0BD5007A9F27 /* SelectCountryTableVC.swift in Sources */,
+				8FC02F7F2687B07B007A7F13 /* DetailCountryScreenVC.swift in Sources */,
 				8F1B2145267DFDD4007A9F27 /* SceneDelegate.swift in Sources */,
+				8FE68C7C267F5B27007B58AC /* CountriesService.swift in Sources */,
+				B29590DD267F358900715346 /* FileData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +469,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8FD814D726804FD800410C24 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8FD814D826804FD800410C24 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8FD814D726804FD800410C24 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8F1B2137267DFDD4007A9F27 /* Project object */;
 }
